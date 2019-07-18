@@ -1,0 +1,11 @@
+name = raw_input("Enter your name: ")
+age = input("Enter your age: ")
+times = input("How many times repeat: ")
+
+year = 100 - age
+year100 = 2019 + year
+
+print("{} will be 100 years old in: {}".format(name, year100))
+
+for t in range(times):
+    print(year100)
